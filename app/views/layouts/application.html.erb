@@ -10,6 +10,10 @@
   </head>
 
   <body>
+    <div class="nav">
+      <%= link_to "Index", articles_path %>
+      <%= link_to "new", new_article_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
